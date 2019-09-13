@@ -1,26 +1,276 @@
 .App {
   text-align: center;
 }
-
+.redux{
+  border: 1px solid #DDD;
+  padding: 20px;
+  text-align: center;
+}
+.redux h1{
+  text-align: center;
+}
+.formData {
+  padding: 50px;
+  float: left;
+  margin: 0 10px;
+  background: #efefef;
+  max-width: calc(400px - 20px);
+  width: 100%;
+  text-align: center;
+}
+.formData h1{
+  margin: 0px;
+  padding: 0px;
+}
+.login #contactform2 {
+  background: #CCC;
+  max-width: 500px;
+  width: calc(100% - 60px);
+  margin: 0px auto;
+  padding: 30px;
+  float: left;
+}
+.login input[type="checkbox"] {
+  width: auto;
+  margin: 0px;
+  height: auto !important;
+}
+.login button {
+  background: #005a7f;
+  color: #FFF;
+  display: inline-block;
+  border: none;
+  padding: 16px;
+  font-size: 20px;
+  width: calc(50% - 10px);
+  margin: 5px;
+}
+.login input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  height: 20px;
+  border: none;
+    outline: none;
+    font-size: 18px;
+}
+.login label {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 0px 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.menulink ul {
+  margin: 0px auto;
+  padding: 0px;
+  width: 100%;
+}
+html, body, #root {
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+.homepage {
+  padding: 50px 0px;
+  display: table;
+  width: 100%;
+  margin: 0px;
+}
+.menulink ul li a {
+  color: #FFF;
+  width: calc(100% - 40px);
+  padding: 14px 20px;
+  display: block;
+  border-bottom: 1px solid #585858;
+  text-decoration: none;
+  font-size: 19px;
+}
+.content {
+  width: calc(100% - 290px);
+  padding: 80px 20px 20px 20px;
+  height: 100%;
+  display: table;
+  float: right;
+  min-height: 100%;
+  max-height: 100%;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.left-side {
+  float: left;
+  width: calc(50% - 30px);
+  text-align: left;
+  margin: 15px;
 }
-
+.right-side {
+  float: right;
+  width: 50%;
+}
+.logo{
+  max-width:200px;
+}
+.App-header {
+  background-color: #005a7f;
+  display: table;
+  color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+.right-side .menulink ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.right-side .menulink ul li a {
+  color: #FFF;
+  text-decoration: none;
+  border-bottom: none;
+}
 .App-link {
   color: #61dafb;
+}
+.right-side .menulink ul{
+  display: inline-block;
+  float: right;
+  list-style: none;
+  width: auto;
+}
+.leftside {
+  height: 100%;
+  width: 250px;
+  background: #293e44;
+  position: fixed;
+  color: #FFF;
+  float: left;
+  top: 63px;
+}
+.container {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0;
+}
+.pagecontentarea {
+  margin: 0px;
+  padding: 0;
+  width: calc(100%);
+  vertical-align: top;
+  float: left;
+  display: table;
+}
+.left {
+  width: calc(50% - 15px);
+  display: inline-block;
+  vertical-align: top;
+}
+ .formfield{
+   margin: 0px auto;
+   padding: 0px;
+   max-width: 500px;
+   width:100%;
+   display: block;
+   float: left;
+ }
+ .formfield label{
+   clear: both;
+   padding: 5px 0px;
+   margin: 0px;
+   width: 100%;
+   display: block;
+   text-align: left;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .formfield label input[type="text"], .formfield label input[type="number"], .formfield label input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  height: 25px;
+  outline:none;
+
+}
+.formpage #contactform {
+  margin: 0px auto;
+  max-width: 500px;
+  background: #CCC;
+  padding: 40px;
+  width: 100%;
+  display: table;
+  float: left;
+}
+.formpage label .textareafield {
+  display: block;
+  width: calc(100% - 10px);
+  padding: 5px;
+  margin: 5px;
+  height: 200px;
+  outline: none;
+}
+.formpage input {
+  width: calc(100% - 10px);
+  clear: both;
+  display: block;
+  padding: 5px;
+  margin: 5px 0px;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 18px !important;
+  outline: none;
+}
+
+button.addprofile {
+  background: #005a7f;
+  display: block;
+  border: none;
+  padding: 10px 20px; 
+  width: 100%;
+  max-width: 417px;
+  float: left;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 50px;
+  outline:none;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 18px !important;
+}
+.udemythree {
+  display: table;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 0px 30px;
+  position: relative;
+}
+.showdiv {
+  width: 300px;
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  background: #DDD;
+  padding: 20px;
+  border-radius: 10px;
+}
+.switchbtn{
+background: #005a7f;
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    float: left;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.udemyfour{
+  display: table;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 0px 30px;
+  position: relative;
 }
 
 @keyframes App-logo-spin {
